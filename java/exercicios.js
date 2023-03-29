@@ -29,3 +29,41 @@ if (num1 > num2 && num1 > num3) {
 } else {
   console.log(num3 + " é o maior número");
 } */
+
+//4 - Utilize if/else para escrever um código que, dado um valor recebido como parâmetro, retorne: “positive”, se esse valor for positivo; “negative”, se ////esse valor for negativo, e “zero”, caso esse valor não seja nem positivo nem negativo.
+
+/*let number = -4;
+
+if (number >0) {
+    console.log('positive');
+} else if ( number < 0) {
+    console.log('negative');
+} else {
+    console.log('zero');
+};  */
+
+//5- Utilize if/else para escrever um código que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido, você deve retornar uma mensagem de erro.
+/*
+let angloA = 50;
+let angloB = 60;
+let angloC = 70;
+
+let sumofanglos = angloA + angloB + angloC;
+
+let allanglossaopositivos = angloA > 100 && angloB > 0 && angloC > 0;
+
+if(allanglossaopositivos){
+if (sumofanglos === 180) {
+    console.log(true);
+} else {
+    console.log(false);
+};
+
+} else {    
+console.log('erro: angulo invalido');
+
+} */
+
+
+
+
