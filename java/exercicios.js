@@ -66,7 +66,7 @@ console.log('erro: angulo invalido');
 
 //6 - Utilize switch/case para escrever um código que receba o nome de uma peça de xadrez e retorne os movimentos que ela pode fazer.
 
-let chessPiece = 'Rei';
+ /* let chessPiece = 'Rei';
 
 switch (chessPiece.toLowerCase()) {
   case 'rei':
@@ -89,8 +89,28 @@ switch (chessPiece.toLowerCase()) {
     break;
   default:
     console.log('Erro, peça inválida!');
-};
+}; */
 
+//7- Utilize if/else para escrever um código que converta uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga as seguintes regras:
+/*
+let grade = 76;
+
+if (grade < 0 || grade > 100) {
+  console.log("Erro, nota incorreta!");
+} else if (grade >= 90) {
+  console.log("A");
+} else if (grade >= 80) {
+  console.log("B");
+} else if (grade >= 70) {
+  console.log("C");
+} else if (grade >= 60) {
+  console.log("D");
+} else if (grade >= 50) {
+  console.log("E");
+} else {
+  console.log("F");
+}
+*/
 
 
 
