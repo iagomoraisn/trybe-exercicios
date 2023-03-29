@@ -1,0 +1,69 @@
+/*
+
+Utilize if/else para escrever um código que retorne o maior de dois números. Defina, no começo do seu código, duas variáveis com os valores que serão comparados.
+
+
+let num1 = 10;
+//let num2 = 20;
+
+//if (num1 > num2) {
+    //console.log(num1 + "é maior que " + num2);
+//} else {
+    //console.log(num2 + "é maior que " + num1);
+//}*/
+
+
+
+/*3 - Utilize if/else para escrever um código que retorne o maior de três números. Defina, no começo do seu código, três variáveis com os valores que serão comparados.
+
+
+
+let num1 = 10;
+let num2 = 20;
+let num3 = 15;
+
+if (num1 > num2 && num1 > num3) {
+  console.log(num1 + " é o maior número");
+} else if (num2 > num1 && num2 > num3) {
+  console.log(num2 + " é o maior número");
+} else {
+  console.log(num3 + " é o maior número");
+} */
+
+//4 - Utilize if/else para escrever um código que, dado um valor recebido como parâmetro, retorne: “positive”, se esse valor for positivo; “negative”, se ////esse valor for negativo, e “zero”, caso esse valor não seja nem positivo nem negativo.
+
+/*let number = -4;
+
+if (number >0) {
+    console.log('positive');
+} else if ( number < 0) {
+    console.log('negative');
+} else {
+    console.log('zero');
+};  */
+
+//5- Utilize if/else para escrever um código que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido, você deve retornar uma mensagem de erro.
+/*
+let angloA = 50;
+let angloB = 60;
+let angloC = 70;
+
+let sumofanglos = angloA + angloB + angloC;
+
+let allanglossaopositivos = angloA > 100 && angloB > 0 && angloC > 0;
+
+if(allanglossaopositivos){
+if (sumofanglos === 180) {
+    console.log(true);
+} else {
+    console.log(false);
+};
+
+} else {    
+console.log('erro: angulo invalido');
+
+} */
+
+
+
+
