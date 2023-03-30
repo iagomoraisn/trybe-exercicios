@@ -1,116 +1,95 @@
-/*
+/*let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+    echo "a media aritmetica: ";
+    array_sum(numbers) / count(numbers);
 
-Utilize if/else para escrever um código que retorne o maior de dois números. Defina, no começo do seu código, duas variáveis com os valores que serão comparados.
+console.log(numbers);
+*/
 
+/*Calcule e imprima a média aritmética dos valores contidos no array.
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let sum = 0;
 
-let num1 = 10;
-//let num2 = 20;
+for (let index = 0; index < numbers.length; index += 1) {
+  sum += numbers[index];
+}
 
-//if (num1 > num2) {
-    //console.log(num1 + "é maior que " + num2);
-//} else {
-    //console.log(num2 + "é maior que " + num1);
-//}*/
+let average = sum / numbers.length;
 
+console.log(average);*/
 
+//Com base no código que acabou de gerar, faça com que: caso o valor final seja maior que 20, imprima a mensagem “Valor maior que 20”; e, caso não seja maior //que 20, imprima a mensagem “Valor menor ou igual a 20”.
 
-/*3 - Utilize if/else para escrever um código que retorne o maior de três números. Defina, no começo do seu código, três variáveis com os valores que serão comparados.
+/* let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let result = 0;
 
+for (let index = 0; index < numbers.length; index += 1) {
+  result += numbers[index];
+}
 
+result = result / numbers.length;
 
-let num1 = 10;
-let num2 = 20;
-let num3 = 15;
-
-if (num1 > num2 && num1 > num3) {
-  console.log(num1 + " é o maior número");
-} else if (num2 > num1 && num2 > num3) {
-  console.log(num2 + " é o maior número");
+if (result > 20) {
+  console.log('valor maior que 20');
 } else {
-  console.log(num3 + " é o maior número");
-} */
-
-//4 - Utilize if/else para escrever um código que, dado um valor recebido como parâmetro, retorne: “positive”, se esse valor for positivo; “negative”, se ////esse valor for negativo, e “zero”, caso esse valor não seja nem positivo nem negativo.
-
-/*let number = -4;
-
-if (number >0) {
-    console.log('positive');
-} else if ( number < 0) {
-    console.log('negative');
-} else {
-    console.log('zero');
-};  */
-
-//5- Utilize if/else para escrever um código que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido, você deve retornar uma mensagem de erro.
-/*
-let angloA = 50;
-let angloB = 60;
-let angloC = 70;
-
-let sumofanglos = angloA + angloB + angloC;
-
-let allanglossaopositivos = angloA > 100 && angloB > 0 && angloC > 0;
-
-if(allanglossaopositivos){
-if (sumofanglos === 180) {
-    console.log(true);
-} else {
-    console.log(false);
-};
-
-} else {    
-console.log('erro: angulo invalido');
-
-} */
-
-//6 - Utilize switch/case para escrever um código que receba o nome de uma peça de xadrez e retorne os movimentos que ela pode fazer.
-
- /* let chessPiece = 'Rei';
-
-switch (chessPiece.toLowerCase()) {
-  case 'rei':
-    console.log('Rei-> Uma casa apenas para qualquer direção.');
-    break;
-  case 'bispo':
-    console.log('Bispo-> Diagonal.');
-    break;
-  case 'rainha':
-    console.log('Rainha-> Diagonal, horizontal e vertical.');
-    break;
-  case 'cavalo':
-    console.log('Cavalo -> "L" pode pular sobre as peças.');
-    break;
-  case 'torre':
-    console.log('Torre -> Horizontal e vertical.');
-    break;
-  case 'peão':
-    console.log("Peão -> Apenas uma casa para frente, no primeiro movimento podem ser duas casas.");
-    break;
-  default:
-    console.log('Erro, peça inválida!');
-}; */
-
-//7- Utilize if/else para escrever um código que converta uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga as seguintes regras:
-/*
-let grade = 76;
-
-if (grade < 0 || grade > 100) {
-  console.log("Erro, nota incorreta!");
-} else if (grade >= 90) {
-  console.log("A");
-} else if (grade >= 80) {
-  console.log("B");
-} else if (grade >= 70) {
-  console.log("C");
-} else if (grade >= 60) {
-  console.log("D");
-} else if (grade >= 50) {
-  console.log("E");
-} else {
-  console.log("F");
+  console.log('valor menor ou igual a 20');
 }
 */
+
+//Utilizando for, descubra o maior valor contido no array e imprima-o.
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// O valor da variável higherNumber poderia ser qualquer um, desde que fosse menor que o menor número do array numbers. Caso o valor 101 fosse atribuído à variável, o algoritmo estaria errado, pois ele nunca acharia um número maior que 101 no array. Para resolver esse problema, inicie a variável com o primeiro valor do array. Assim, é possível pular a posição 0 e iniciar com index = 1.
+
+/*let higherNumber = numbers[0];
+
+for (let index = 1; index < numbers.length; index += 1) {
+  if (numbers[index] > higherNumber) {
+    higherNumber = numbers[index];
+  }
+}
+
+console.log(higherNumber);*/
+
+//Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “Nenhum valor ímpar encontrado”.
+
+/*let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let result = 0;
+
+for (let index = 0; index < numbers.length; index += 1) {
+  if (numbers[index] % 2 !== 0) {
+    result += 1;
+  }
+}
+
+if (result === 0) {
+  console.log('nenhum valor ímpar encontrado');
+} else {
+  console.log(result);
+}*/
+
+//Utilizando for, descubra o menor valor contido no array e imprima-o.
+
+/*let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// O valor da variável smallestNumber poderia ser qualquer um, desde que fosse maior que o maior número do array numbers. Caso o valor 1 fosse atribuído à variável, o algoritmo estaria errado, pois ele nunca acharia um número menor que 1 no array. Para resolver esse problema, inicie a variável com o primeiro valor do array. Assim, é possível pular a posição 0 e iniciar com index = 1.
+
+let smallestNumber = numbers[0];
+
+for (let index = 1; index < numbers.length; index += 1) {
+  if (numbers[index] < smallestNumber) {
+    smallestNumber = numbers[index];
+  }
+}
+
+console.log(smallestNumber); */
+
+
+
+
+
+
+
 
 
 
