@@ -1,88 +1,270 @@
-/*let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-    echo "a media aritmetica: ";
-    array_sum(numbers) / count(numbers);
+/*let saldo = 1000;
 
-console.log(numbers);
+function adicionarValor(saldoAtual, valor) {
+  let novoSaldo = saldoAtual + valor;
+  return novoSaldo;
+}
+
+function subtrairValor(saldoAtual, valor) {
+  let novoSaldo = saldoAtual - valor;
+  return novoSaldo;
+}
+
+function multiplicarPorTaxa(saldoAtual, taxa) {
+  let novoSaldo = saldoAtual * taxa;
+  return novoSaldo;
+}
+
+function dividirValor(saldoAtual, divisor) {
+  let novoSaldo = saldoAtual / divisor;
+  return novoSaldo;
+}
+
+console.log(adicionarValor(saldo, 500)); // saída: 1500
+console.log(subtrairValor(saldo, 200)); // saída: 800
+console.log(multiplicarPorTaxa(saldo, 1.1)); // saída: 1100
+console.log(dividirValor(saldo, 2)); // saída: 500
 */
 
-/*Calcule e imprima a média aritmética dos valores contidos no array.
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let sum = 0;
+/*let saldo =100;
 
-for (let index = 0; index < numbers.length; index += 1) {
-  sum += numbers[index];
-}
+function somarsaldo (valor) {
+    return valor + saldo;
+};
 
-let average = sum / numbers.length;
+function subtrairsaldo(valor) {
+    return valor - saldo;
+};
 
-console.log(average);*/
+function multiplicasaldo(valor) {
+    return valor * saldo;
+};
 
-//Com base no código que acabou de gerar, faça com que: caso o valor final seja maior que 20, imprima a mensagem “Valor maior que 20”; e, caso não seja maior //que 20, imprima a mensagem “Valor menor ou igual a 20”.
+function divivesaldo(valor) {
+    return valor / saldo;
+};
 
-/* let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let result = 0;
-
-for (let index = 0; index < numbers.length; index += 1) {
-  result += numbers[index];
-}
-
-result = result / numbers.length;
-
-if (result > 20) {
-  console.log('valor maior que 20');
-} else {
-  console.log('valor menor ou igual a 20');
-}
+console.log(somarsaldo (300)); 
+console.log(subtrairsaldo(50));
+console.log(multiplicasaldo(100));
+console.log(divivesaldo(10));
 */
 
-//Utilizando for, descubra o maior valor contido no array e imprima-o.
+/*let clientesTrybeBank = ['Ada', 'John', 'Gus'];
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-
-// O valor da variável higherNumber poderia ser qualquer um, desde que fosse menor que o menor número do array numbers. Caso o valor 101 fosse atribuído à variável, o algoritmo estaria errado, pois ele nunca acharia um número maior que 101 no array. Para resolver esse problema, inicie a variável com o primeiro valor do array. Assim, é possível pular a posição 0 e iniciar com index = 1.
-
-/*let higherNumber = numbers[0];
-
-for (let index = 1; index < numbers.length; index += 1) {
-  if (numbers[index] > higherNumber) {
-    higherNumber = numbers[index];
-  }
-}
-
-console.log(higherNumber);*/
-
-//Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “Nenhum valor ímpar encontrado”.
-
-/*let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let result = 0;
-
-for (let index = 0; index < numbers.length; index += 1) {
-  if (numbers[index] % 2 !== 0) {
-    result += 1;
-  }
-}
-
-if (result === 0) {
-  console.log('nenhum valor ímpar encontrado');
+// escreva aqui sua função
+function adicionaCliente(cliente) {
+if (typeof cliente === 'string') {
+    clientesTrybeBank.push(cliente);
+    return 'Cliente adicionada(o) com sucesso!';
 } else {
-  console.log(result);
+    return 'O parametro passado deve ser do tipo "string"';
+}
+
+}
+
+console.log(adicionaCliente(true)); //  O parâmetro passado deve ser do tipo "string"
+console.log(adicionaCliente('Joaquim')); // Cliente adicionada(o) com sucesso
+console.log(clientesTrybeBank); // [ 'Ada', 'John', 'Gus', 'Joaquim' ]*/
+
+/* let clientesTrybeBank = ['Ada', 'John', 'Gus'];
+
+function removeCliente(cliente) {
+    if (typeof cliente === 'string')  {
+        for (let index = 0; index < clientesTrybeBank.length; index += 1) {
+            if(cliente === clientesTrybeBank[index]) {
+                clientesTrybeBank.splice(index, 1);
+                clienteEncontrado = true;
+                return 'Cliente excluida(o) com sucesso.';
+            }
+        }
+
+        if (clienteEncontrado === false) {
+            return 'Cliente não encontrada(o)'
+        }
+
+    } else {
+        return 'O parametro passado deve ser do tipo "string"';
+    }
+};
+
+        console.log(removeCliente(false)); // O parâmetro passado deve ser do tipo "string"!
+        console.log(removeCliente('Barney')); // Cliente não encontrada(o)
+        console.log(removeCliente('john')); // Cliente excluída(o) com sucesso.
+        console.log(removeCliente(clientesTrybeBank)); // [ 'Ada', 'Gus' ]*/
+
+
+
+
+
+        /*let lado1 = 9;
+        let lado2 = 7;
+        let lado3 = 8;
+
+        function checkIntegerPositive (l1, l2, l3){[]
+            if (checkIntegerPositive >= 1 &&  ) {
+                return true;
+            }
+        
+        }*/
+
+
+       /* let diasDaSemana = {
+            1: 'domingo',
+            2: 'segunda-feira',
+            3: 'terça-feira',
+            4: 'quarta-feira',
+            5: 'quinta-feira',
+            6: 'sexta-feira',
+            7: 'sábado',
+          };
+          
+          diasDaSemana.1; // SyntaxError: Unexpected number
+          console.log(diasDaSemana['1']); // domingo */
+/*
+let name = 'Marta';
+let lastName = 'Silva';
+let age = 34;
+let medals = { golden: 2, silver: 3 }; */
+
+/* let player = {
+    name: 'Marta',
+    lastName: 'Silva',
+    age: 34,
+    medals: { golden: 2, silver: 3 },
+}; */
+        
+ /*console.log('A jogadora ' + player.name + ' ' + player.lastName + ' tem ' + player.age + ' anos de idade.');
+
+player.bestInTheWorld = [2006, 2007, 2008, 2009, 2010, 2018];
+console.log('A jogadora ' + player.name + ' ' + player.lastName + ' foi eleita a melhor do mundo por ' + player.bestInTheWorld.length + ' vezes.');
+
+player.medals = { golden: 2, silver: 3 };
+console.log('A jogadora possui ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver + ' medalhas de prata.');
+
+*/
+        
+/*let car = {
+    type: 'Fiat',
+    model: '500',
+    color: 'white',
+  };
+  
+  for (let index in car) {
+    console.log(index, car[index]);
+  } */
+
+  /* let names = {
+    person1: 'João',
+    person2: 'Maria',
+    person3: 'Jorge',
+  };
+
+  for (let name in names) {
+  console.log("Ola "  +  names [name])
+  } */
+
+  /* let car = {
+    model: 'A3 Sedan',
+    manufacturer: 'Audi',
+    year: 2020
+  };
+
+  for (let index in car) {
+    console.log(index, car[index]);
+  } */  
+
+  /*let student = {   
+    firstName: 'iago',  
+    lastName: 'Morais',
+    age: 27,
+    job: 'manager',
+    email: 'iagojkd96@hotmail.com',
+    github: 'iagomoraisn',
+    linkedin: 'https://www.linkedin.com/in/iago-morais96/',
+    };
+
+    console.log(student);*/
+
+  /*  let object = { a: 1, b: 2, c: 3 };
+
+for (let property in object) {
+  console.log(property + ' = ' + object[property]);
+} */
+
+
+/*let starships = {
+    option1: "Tardis",
+    option2: "Millennium Falcon",
+    option3: "Enterprise",
+    option4: "Heart of Gold"
+  }
+
+        
+    for (let starship in starships) {
+        console.log(starship + ' = ' Object.values(starships) );
+    }*/
+ 
+    /*function userInfo() {
+      let userEmail = 'maria@email.com';
+    
+      // Toda expressão dentro do escopo da função userInfo tem acesso à variável userEmail
+      console.log(userEmail);
+    }
+    userInfo();*/
+
+    /*let userName = 'Isabella';
+let userName = 'Lucas';
+console.log(userName); // Resultado: Lucas */
+
+/*function hello() {
+  let saudacoes = ["Hello World!", "Olá Mundo!"];
+  console.log(saudacoes[0]);
 }*/
 
-//Utilizando for, descubra o menor valor contido no array e imprima-o.
+/*
 
-/*let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+const nome = "Gus";
+const modulos = [1];
+const empresa = {
+  nome: "Trybe",
+  nota: 8001,
+};
 
-// O valor da variável smallestNumber poderia ser qualquer um, desde que fosse maior que o maior número do array numbers. Caso o valor 1 fosse atribuído à variável, o algoritmo estaria errado, pois ele nunca acharia um número menor que 1 no array. Para resolver esse problema, inicie a variável com o primeiro valor do array. Assim, é possível pular a posição 0 e iniciar com index = 1.
+modulos.push(3);
+nome = "Batman";
+empresa.nota = 8002;
+*/
 
-let smallestNumber = numbers[0];
+/*
+função basica de cumprimento
+function cumprimentaCliente (cliente) {
+  return 'Olá ' + cliente + ', seja bem vindo(a)!';
+}
+console.log(cumprimentaCliente('cliente1'));*/
 
-for (let index = 1; index < numbers.length; index += 1) {
-  if (numbers[index] < smallestNumber) {
-    smallestNumber = numbers[index];
-  }
+/*
+criando calculadora de saldo
+let saldo = 100;
+
+function somarSaldo(valor) { 
+    saldo = saldo + valor;
+    return saldo;
+}
+function subtraiSaldo(valor) {
+  saldo = saldo - valor;
+  return saldo;
+}
+function multipliqueSaldo(valor) {
+  saldo = saldo * valor;
+  return saldo;
+} 
+function dividaSaldo(valor) {
+  saldo = saldo / valor;
+  return saldo;
 }
 
-console.log(smallestNumber); */
+console.log(dividaSaldo(200)); // 100  */
 
 
 
