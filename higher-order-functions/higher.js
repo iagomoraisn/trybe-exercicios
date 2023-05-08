@@ -23,3 +23,24 @@ const newEmployees = (callback) => {
     Além disso, você deve gerar os emails de cada pessoa que é contratada na empresa. Para isso:*/
 
     //ex2
+
+   /*function soma (numero1, numero2){
+    const somaNumeros = numero1 + numero2
+console.log(somaNumeros)
+} 
+    soma (1, 2);
+
+    function mult (numero1, numero2){
+
+    const multNumeros = numero1 * numero2
+    console.log(multNumeros)
+    }
+
+    mult (10, 50);
+
+    function div (numero1, numero2){
+        const divNumeros = numero1 / numero2
+        console.log(divNumeros)
+    }
+
+    div (50, 1250)*/
