@@ -44,3 +44,25 @@ console.log(somaNumeros)
     }
 
     div (50, 1250)*/
+/*
+    const people = [
+        { name: 'Mateus', age: 18 },
+        { name: 'José', age: 16 },
+        { name: 'Ana', age: 23 },
+        { name: 'Cláudia', age: 20 },
+        { name: 'Bruna', age: 19 },
+      ];
+      
+     people.sort((personA, personB) => personA.age - personB.age);
+     console.log(people);
+
+     */
+
+     const pessoas = [
+        { nome: 'Joana', idade: 37 },
+        { nome: 'Ana', idade: 25 },
+        { nome: 'João', idade: 32 },
+        { nome: 'Aline', idade: 28 },
+      ];
+
+pessoas.find((pessoa) => pessoa.nome === 'Aline');
